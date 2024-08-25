@@ -1,0 +1,140 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Container for layout */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Hero section */
+.hero {
+    background: #FF6F61; /* Adjust the color to match the design */
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background: #444;
+}
+
+/* Features section */
+.features {
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.features .feature {
+    width: 30%;
+    display: inline-block;
+    margin: 0 1.5%;
+}
+
+.features .feature img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.features h2 {
+    margin: 20px 0 10px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.features p {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Explore section */
+.explore {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.explore h2 {
+    margin-bottom: 15px;
+    font-size: 2em;
+}
+
+.explore p {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: #666;
+}
+
+.btn-secondary {
+    padding: 10px 20px;
+    background: #FF6F61;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-secondary:hover {
+    background: #FF5A4C;
+}
+
+/* Global section */
+.global {
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.global h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.global p {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: #666;
+}
+
+.global img {
+    max-width: 100%;
+}
+
+/* Footer styling */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
